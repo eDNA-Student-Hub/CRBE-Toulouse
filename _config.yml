@@ -1,5 +1,9 @@
 title: "eDNA Student Hub — CRBE Toulouse"
 description: "A student-led network for monthly seminars and peer support in environmental DNA research."
-theme: minima
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+minima:
+  skin: dark
 url: "https://edna-student-hub.github.io"
 baseurl: "/CRBE-Toulouse"
