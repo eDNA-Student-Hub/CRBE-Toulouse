@@ -9,3 +9,6 @@ minima:
   skin: dark
 url: "https://edna-student-hub.github.io"
 baseurl: "/CRBE-Toulouse"
+collections:
+  membres:
+    output: false
