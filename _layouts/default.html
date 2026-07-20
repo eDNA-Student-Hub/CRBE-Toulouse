@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title }} — eDNA Student Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <a href="{{ '/' | relative_url }}" class="brand">
+      <span class="brand-mark">
+        <svg viewBox="0 0 26 26" fill="none">
+          <circle cx="13" cy="13" r="2.6" fill="#1F6F6B"/>
+          <circle cx="4" cy="6" r="2" fill="#7FB2D9"/>
+          <circle cx="22" cy="5" r="2" fill="#9C7A4A"/>
+          <circle cx="23" cy="19" r="2" fill="#2A5C99"/>
+          <circle cx="3" cy="20" r="2" fill="#9463A8"/>
+          <path d="M13 13L4 6M13 13L22 5M13 13L23 19M13 13L3 20" stroke="#C9C0AC" stroke-width="1"/>
+        </svg>
+      </span>
+      eDNA Student Hub
+    </a>
+    <ul class="nav-links">
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li><a href="{{ '/directory/' | relative_url }}">Directory</a></li>
+      <li><a href="{{ '/topics/' | relative_url }}">Topics</a></li>
+      <li><a href="{{ '/summaries/' | relative_url }}">Summaries</a></li>
+      <li><a href="{{ '/pipeline-map/' | relative_url }}">Pipeline map</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="wrap page-content">
+  {{ content }}
+</main>
+
+<footer>
+  <div class="wrap foot-row">
+    <p>CRBE TOULOUSE — PART OF THE eDNA STUDENT HUB NETWORK</p>
+    <ul class="foot-links">
+      <li><a href="https://github.com/eDNA-Student-Hub/CRBE-Toulouse">GitHub</a></li>
+      <li><a href="https://github.com/eDNA-Student-Hub/CRBE-Toulouse/issues/new">Propose a topic</a></li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>
