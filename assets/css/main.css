@@ -133,10 +133,14 @@ nav.wrap{
   width: 56px; height: 56px; border-radius: 50%;
   padding: 3px;
   margin-bottom: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 .avatar-ringed .avatar{
   width: 100%; height: 100%; margin-bottom: 0;
   border: 2px solid var(--paper-raised);
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 /* ---------- TOPIC ROWS (Topics / Summaries) ---------- */
