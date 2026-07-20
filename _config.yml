@@ -12,3 +12,5 @@ baseurl: "/CRBE-Toulouse"
 collections:
   membres:
     output: false
+  sujets:
+    output: false
