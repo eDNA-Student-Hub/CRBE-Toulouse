@@ -18,6 +18,7 @@ permalink: /
 
 <a href="{{ '/directory/' | relative_url }}" class="btn btn-primary">See who's involved →</a>
 <a href="https://github.com/eDNA-Student-Hub/CRBE-Toulouse/issues/new" class="btn btn-ghost">Propose a topic</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSfqFDzKeap8hiRMraCo3jbCdAKmVvMrIlTubhgIG-Av5toq5Q/viewform?usp=dialog" class="btn btn-ghost">Join the directory</a>
 
 ## Next meeting
 
